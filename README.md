@@ -3,7 +3,7 @@ FlyAdb
 
 # Runtime Description
 
-![](https://github.com/LiZoRN/flyadb/doc/image/runtime.jpg)
+![](https://github.com/LiZoRN/flyadb/blob/master/doc/image/runtime.jpg)
 
 1. Case: 
 The case could be runned by cmd or TAT . And It shall be loose coupling with any other Frontends.
@@ -16,7 +16,7 @@ Device process the cmd by adbd, monkey, or rpcServer which is a Task Registered 
 
 # Static Structure
 
-![](https://github.com/LiZoRN/flyadb/doc/image/staticstruct.jpg)
+![](https://github.com/LiZoRN/flyadb/blob/master/doc/image/staticstruct.jpg)
  
 1. The yellow color modules is supported as Libs, contain uiautomator and monkeyrunner:
 	JsonRPCServer: A Listening Task that registered the uiautomator Method.
